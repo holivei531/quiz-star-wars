@@ -20,8 +20,8 @@ Quiz interativo com base em pontos da história da franquia de filmes Star Wars
 
 - Manipulação do DOM
 - Reação de eventos do usuário na página
-- Utilização de eventos de teclado
-- Refatoração de código
+- Utilização do evento submit
+<!-- - Refatoração de código -->
 
 ## 🛠 Tecnologias
 
@@ -34,7 +34,7 @@ Quiz interativo com base em pontos da história da franquia de filmes Star Wars
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/holivei531/quiz-star-wars/blob/master/LICENSE) para obter mais informações.
 
 ### Link da aplicação
-<!-- Você pode acessar facilmente a aplicaçao clicando [aqui](https://holivei531.github.io/quiz-star-wars/). -->
+Você pode acessar facilmente a aplicaçao clicando [aqui](https://holivei531.github.io/quiz-star-wars/).
 
 ---
 <p align="center">Feito com ❤️ por <strong>Hildebrando Junior</strong></p>
