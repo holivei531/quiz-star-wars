@@ -38,7 +38,7 @@ form.addEventListener('submit', event => {
         if (counter === score) {
             clearInterval(timer);
         };
-        finalResult.querySelector('span').textContent = `${score}%`;
+        finalResult.querySelector('span').textContent = `${counter}%`;
         counter++;
     }, 10);
 });
