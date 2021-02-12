@@ -24,6 +24,21 @@ form.addEventListener('submit', event => {
             score += 25;
         };
     });
-    finalResult.querySelector('span').textContent = `${score}%`;
+
+    // Rolando a página para o top após enviar o form (para melhor visibilidade no mobile)
+    scrollTo(0, 0);
+
+    // Removendo a classe display none
     finalResult.classList.remove('d-none');
+
+    // Mostrando a porcentagem de acerto do usuário
+    let counter = 0;
+
+    const tiemr = setInterval(() => {
+        if (counter === score) {
+            clearInterval(timer);
+        };
+        finalResult.querySelector('span').textContent = `${score}%`;
+        counter++;
+    }, 10);
 });
