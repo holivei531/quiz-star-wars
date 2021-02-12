@@ -1,5 +1,6 @@
-// Obtendo referência do elemento
+// Obtendo referência dos elementos
 const form = document.querySelector('.quiz-form');
+const finalResult = document.querySelector('.result');
 
 // Armazanando as respostas corretas do quiz
 const correctAnswers = ['A', 'A', 'A', 'A'];
@@ -23,5 +24,6 @@ form.addEventListener('submit', event => {
             score += 25;
         };
     });
-    console.log(score);
+    finalResult.querySelector('span').textContent = `${score}%`;
+    finalResult.classList.remove('d-none');
 });
