@@ -34,7 +34,7 @@ form.addEventListener('submit', event => {
     // Mostrando a porcentagem de acerto do usuário
     let counter = 0;
 
-    const tiemr = setInterval(() => {
+    const timer = setInterval(() => {
         if (counter === score) {
             clearInterval(timer);
         };
