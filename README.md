@@ -1,14 +1,12 @@
 <h1 align="center">Quiz - Star Wars</h1>
-<!-- 
-<p align="center">
+
+<!-- <p align="center">
   <img alt="Pop-up" src="./gif/popup.gif">
-</p>
+</p> -->
 
 <h4 align="center"> 
     🚧 CJRM - Curso de JavaScript Roger Melo 🚀 em construção... 🚧
 </h4>
-
-<!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> -->
 
 ## 🗒 Sobre
 
@@ -38,4 +36,5 @@ Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.c
 ### Link da aplicação
 <!-- Você pode acessar facilmente a aplicaçao clicando [aqui](https://holivei531.github.io/quiz-star-wars/). -->
 
-<p align="center">Feito com ❤️ por <strong>Hildebrando Junior</strong></p> -->
+---
+<p align="center">Feito com ❤️ por <strong>Hildebrando Junior</strong></p>
